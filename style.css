@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
+.title_wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  column-gap: 40px;
+}
+
+.title {
+  font-size: 240px;
+  font-weight: 100;
+  cursor: pointer;
+  font-family: "Roboto Condensed";
+  filter: blur(7px);
+}
+
+.title:hover {
+  filter: blur(0);
+  transition: filter 0.6s;
+}
